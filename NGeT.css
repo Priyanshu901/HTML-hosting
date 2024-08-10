@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+
+header {
+  margin-top: 8px;
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  /* border: 3px solid black; */
+}
+#headdiv {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
+  font-size: 0.75rem;
+}
+#IRCTC {
+  font-size: 1rem;
+}
+
+section {
+  margin-top: 24px;
+  display: flex;
+  gap: 60px;
+}
+
+#navlist {
+  border: 1px solid black;
+  margin-left: 4px;
+  list-style-type: none;
+  padding: 8px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  width: 200px;
+  text-align: left;
+}
+#navlist > li {
+  cursor: pointer;
+}
+#navlist > li:hover {
+  background-color: #a5a2a1;
+}
+
+.itemlist {
+  list-style-type: square;
+  white-space: nowrap;
+}
+.itemlist > li {
+  cursor: pointer;
+}
+
+.super {
+  position: relative;
+}
+
+.container {
+  position: absolute;
+}
+.hidden {
+  display: none;
+}
+.selected {
+  background-color: #cfcdcc;
+}
